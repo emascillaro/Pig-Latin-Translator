@@ -19,7 +19,7 @@ public class pigLatin {
         } 
         /* Take all characters after index (including 
         index) and append all characters which are before 
-        index. Then append "ay" */
+        index. Then, append "ay" */
         return word.substring(index) + word.substring(0, index) + "ay "; 
     }  
     /*defines string being translated
